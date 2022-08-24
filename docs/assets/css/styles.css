@@ -1,0 +1,140 @@
+.tarjetas {
+  max-width: 600px;
+  margin: auto;
+}
+
+@media (max-width: 576px) {
+  .tarjetas {
+    width: 100%;
+  }
+}
+
+.portada img {
+  width: 100%;
+}
+
+.containerA {
+  text-align: center;
+  background: url("./fondo.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.containerA a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.containerA i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.mapa iframe {
+  width: 100%;
+}
+
+@media (max-width: 300px) {
+  .informcion {
+    width: 100%;
+  }
+}
+
+.containerInfo {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.containerInfo i {
+  font-size: 30px;
+  color: #C5ACD3;
+}
+
+.containerInfo a {
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+}
+
+.containerRedes {
+  text-align: center;
+}
+
+.containerRedes a {
+  text-decoration: none;
+  color: #000;
+}
+
+.containerRedes i {
+  font-size: 30px;
+}
+
+.socialmedia #facebook:hover {
+  color: #00b2ff;
+}
+
+.socialmedia #youtube:hover {
+  color: red;
+}
+
+.socialmedia #whatsapp:hover {
+  color: green;
+}
+
+.inicio {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: url("./fondo.png");
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.inicio a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.inicio i {
+  font-size: 30px;
+}
+
+.socialmedia i {
+  color: #C5ACD3;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.socialmedia a {
+  text-decoration: none;
+  color: #000;
+}
+
+.socialmedia i {
+  font-size: 30px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.info a {
+  text-decoration: none;
+  color: #000;
+}
+
+.info i {
+  font-size: 30px;
+}
+
+.formulario{
+  width: 100%;
+}
